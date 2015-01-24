@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>ApiBox</title>
+        <link>www.egs-studio.com/ApiBox/appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        
+          
+        <item>
+            <title>Version 0.0.2</title>
+            <description><![CDATA[
+                <p>1.增加精简模板输入。方便程序猿，一般情况下最常用到的偷懒生成API文档。</p>
+            ]]>
+            </description>
+            <pubDate>Thur, 15 Jan 2015 11:07:17 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
+            <enclosure url="http://www.egs-studio.com/releaseApiBox/ApiBox_Beta0.0.2.zip" sparkle:version="0.0.0.2" sparkle:shortVersionString="0.0.2" length="5584381" type="application/octet-stream" sparkle:dsaSignature="MCwCFDJHrpmgY+5spd8o8f5jnJ1nXgS3AhQMdZLcVqcqZsoZ/C+ZrU83tVlKVA==" />
+        </item>
+        
+        <item>
+            <title>Version 0.0.1</title>
+            <description><![CDATA[
+                <p>First publicly released version. Visit the <a href="http://www.egs-studio.com/ApiBox/">project site</a> for more information.</p>
+            ]]>
+            </description>
+            <pubDate>Mon, 8 Dec 2014 18:33:11 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
+            <enclosure url="http://www.egs-studio.com/releaseApiBox/ApiBox_Beta0.0.1.zip" sparkle:version="0.0.0.1" sparkle:shortVersionString="0.0.1" length="5460672" type="application/octet-stream" sparkle:dsaSignature="MC0CFCzN5++PgCJf9GLNKXov8O4kxnxIAhUAnWD1lUTkIQ4WT6ndlJb3YYvEgE8=" />
+        </item>
+        
+
+
+        
+   </channel>
+</rss>
