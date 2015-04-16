@@ -38,20 +38,22 @@
      
 
     .btn {
-    display: inline-block;
+
+    animation: myfirst 5s infinite linear;
+      -webkit-animation: myfirst 5s infinite linear;
+      -moz-animation: myfirst 5s infinite linear;
+      -o-animation: myfirst 5s infinite linear;
     padding: 8px 20px;
     margin-bottom: 20px;
-    font-size: 14px;
     font-size: .875rem;
     color: #aaa;
     background-color: #3A3C42;
     border-color: #222;
     border-style: solid!important;
-    border-width: 2px!important;
+    border-width: 1px!important;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    transition: all .2s ease; 
     text-decoration: none;
     }
     .btn:hover {
@@ -73,6 +75,73 @@
     background: url("apiboxICON80.png") 0 0 no-repeat;
     }
 
+    @keyframes myfirst
+        {
+            0% {
+                opacity: .7;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+            50% {
+                opacity: 1;
+                border:1px solid rgba(59,235,235,1);
+                box-shadow:0 1px 30px rgba(59,255,255,1);
+            }
+            100%{
+                opacity: .7;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+        }
+
+        @-moz-keyframes myfirst /* Firefox */
+        {
+            0% {
+                opacity: .5;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+            50% {
+                opacity: 1;
+                border:1px solid rgba(59,235,235,1);
+                box-shadow:0 1px 30px rgba(59,255,255,1);
+            }
+            100%{
+                opacity: .5;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+        }
+
+        @-webkit-keyframes myfirst /* Safari 和 Chrome */
+        {
+            0% {
+                opacity: .5;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+            50% {
+                opacity: 1;
+                border:1px solid rgba(59,235,235,1);
+                box-shadow:0 1px 30px rgba(59,255,255,1);
+            }
+            100%{
+                opacity: .5;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+        }
+
+        @-o-keyframes myfirst /* Opera */
+        {
+            0% {
+                opacity: .5;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+            50% {
+                opacity: 1;
+                border:1px solid rgba(59,235,235,1);
+                box-shadow:0 1px 30px rgba(59,255,255,1);
+            }
+            100%{
+                opacity: .5;
+                box-shadow:0 1px 2px rgba(255,255,255,0.1);
+            }
+        }
     </style>
 
     <body>
@@ -85,8 +154,7 @@
          
          <a href="index.html">
              <img align="left" src="apiboxICON80.png" alt="egs">
-             <!-- <div class="headerLogotype"></div> -->
-            <!-- <h1>ApiBox</h1> -->
+              
         </a>
     </div>
 </div>
@@ -148,14 +216,14 @@
             <b  >ApiBox beta0.0.X 暂时挂起</b></br>
             1.由于作者们🐒🐒暂时被docker技术的漂亮漩涡吸🌀引进去了...
 
-            <a href="/releaseApiBox/ApiBox_Beta0.0.2.zip" class="btn">ApiBox_Beta0.0.2.zip</a>
+            <a href="/releaseApiBox/ApiBox_Beta0.0.2.zip" class="btn" >ApiBox_Beta0.0.2.zip</a>
 <!-- ========================版本分割线             -->
 
             <p "color: #eee">            ↓↓↓~~~~~~~~~~~~2015.01.15~~~~~~~~~~~~~</p>
             <b  >ApiBox beta0.0.2</b></br>
             1.增加精简模板输入。方便程序猿，多数情况能偷懒生成API文档。
 
-            <a href="/releaseApiBox/ApiBox_Beta0.0.2.zip" class="btn">ApiBox_Beta0.0.2.zip</a>
+            <a href="/releaseApiBox/ApiBox_Beta0.0.2.zip"   disabled = 'true'>ApiBox_Beta0.0.2.zip</a>
 <!-- ========================版本分割线             -->
             <p "color: #eee">            ↓↓↓~~~~~~~~~~~~2014.12.08~~~~~~~~~~~~~</p>
             ApiBox beta0.0.1</br>
@@ -177,7 +245,7 @@
         </br>
         <p class="copyright">Made with passionate in <a href="http://www.egs-studio.com" target="_blank">Egs-Studio.com</a></p>
 
-         </br> <p  style="color: #c5c5c5;"> [dev_By 若虚、Eric ; ICON_by 也颛、EchoLee] <a  href="http://ip.dnspod.cn/" target="_blank" style="color: #87b3d9;">本地DNS优化</a></p>
+         </br> <p  style="color: #c5c5c5;"> [dev_By 若虚、Eric ; ICON_by 也颛、EchoLee] <a   href="http://ip.dnspod.cn/" target="_blank" style="color: #87b3d9;">本地DNS优化</a></p>
      
     </div>
 
